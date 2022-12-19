@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 
 
-def run():
-
+def run(message):
+    print(message)
 
 
 
@@ -18,4 +18,4 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    run("starting")
